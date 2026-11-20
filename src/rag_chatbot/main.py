@@ -34,3 +34,13 @@ vectorstore = Chroma.from_documents(
     documents=chunks, 
     embedding=embeddings,
     persist_directory="data/chroma_db")
+
+print("Persisting vectorstore to disk...")
+print(f"Persist directory: {vectorstore}")    
+
+question = input("Enter your question: ")
+print(f"Searching for answer to: {question}")
+
+retriever = vectorstore.as_retriever(search_type="similarity", search_kwargs={"k": 3})
+retrieved_docs = retriever.invoke(question)
+print(f"Retrieved documents: {retrieved_docs}")
