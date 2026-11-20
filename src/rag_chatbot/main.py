@@ -1,6 +1,6 @@
-from langchain_community.document_loaders import TextLoader
+from langchain_community.document_loaders import TextLoader, PyPDFLoader
 
-loader = TextLoader("data/data.txt")
+loader = PyPDFLoader("data/data.pdf")
 docs = loader.load()
 
 print(docs)
