@@ -10,6 +10,9 @@ class Config:
     GROQ_API_KEY= os.getenv("GROQ_API_KEY") 
     CHUNK_SIZE= 100
     CHUNK_OVERLAP= 20
-
+    CHROMA_PERSIST_DIRECTORY= "data/chroma_db"
+    SEARCH_TYPE= "similarity"
+    RETRIEVER_SCORE_THRESHOLD= 0.7
+    RETRIEVER_TOP_K= 3
 
 config = Config()
