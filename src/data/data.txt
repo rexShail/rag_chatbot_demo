@@ -1,0 +1,24 @@
+I am a AI Engineer with 13+ years of experience in technology, specializing in financial services, decisioning platforms, customer acquisition, and fraud prevention.
+
+Over the past six years at Citi, I have worked on technology supporting customer acquisition journeys across cards and retail banking, where decisioning and business rules engines help evaluate customer information and support critical onboarding decisions.
+
+My expertise lies at the intersection of technology, business rules, and financial services. I focus on translating complex business requirements into reliable, scalable enterprise solutions while supporting the needs of business-critical platforms.
+
+Core areas of expertise
+FinTech and financial services technology
+Decision management and business rules engines
+FICO decision technologies
+Fraud detection and prevention
+Technical and solution architecture
+Enterprise applications and microservices
+Python, Angular, JavaScript, and TypeScript
+AI/ML and data-driven solutions
+Cross-functional and geographically distributed team collaboration
+
+Throughout my career, I have collaborated with teams across India, the United States, and Saudi Arabia, helping coordinate technical delivery and align stakeholders across locations.
+
+I am particularly interested in the evolution of intelligent decisioning systems, AI driven fraud prevention, automation, and scalable architectures that improve business outcomes while maintaining reliability and operational resilience.
+
+My professional approach combines technical depth with business understanding. I believe the best technology solutions do more than solve engineering problems they enable smarter decisions, improve customer experiences, and create measurable business value.
+
+Areas I enjoy exploring: FinTech architecture, fraud and risk technology, decision intelligence, enterprise AI, and the practical application of AI/ML in production systems.
