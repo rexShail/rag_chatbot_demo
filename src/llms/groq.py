@@ -1,11 +1,7 @@
 from langchain_groq import ChatGroq 
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
-
+from src.core.config import config
 
 llm = ChatGroq(
-    model="qwen/qwen3.8-27b",
-    api_key=os.environ.get("GROQ_API_KEY") # type: ignore
+    model=config.GROQ_MODEL_NAME,
+    api_key=config.GROQ_API_KEY  # type: ignore
 )
